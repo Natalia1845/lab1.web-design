@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе "Смакота"</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Кафе "Смакота"</h1>
+        <nav id="menu">
+            <p id="menuLink">Меню</p>
+            <p id="reviewsLink">Відгуки</p>
+            <p id="contactsLink">Контакти</p>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <div id="menuContent" class="hidden">
+                <h2>Меню</h2>
+                <ul>
+                    <li>Салат Цезар</li>
+                    <li>Паста Альфредо</li>
+                    <li>Піца Маргарита</li>
+                    <li>Бургер з яловичиною</li>
+                    <li>Капучино</li>
+                    <li>Чай</li>
+                    <li>Соки</li>
+                </ul>
+                <!-- Кнопки для меню -->
+                <div class="menu-buttons">
+                    <button id="showMenu">Показати меню</button>
+                    <button id="highlight">Підсвітити меню</button>
+                    <button id="reset">Скинути зміни</button>
+                </div>
+            </div>
+
+            <div id="reviewsContent" class="hidden">
+                <h2>Відгуки наших клієнтів</h2>
+                <p>Це найкраще кафе, в якому я був!</p>
+                <p>Смачні страви та привітний персонал!</p>
+            </div>
+
+            <div id="contactsContent" class="hidden">
+                <h2>Контакти</h2>
+                <p>Телефон: (123) 456-7890</p>
+                <p>Email: info@smakota.com</p>
+                <p>Адреса: вул. Смачної, 1, Київ, Україна</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Кафе "Смакота". Усі права захищені.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
